@@ -26,6 +26,8 @@ output/
 *.json
 *.csv
 *.html
+# ...but the packaged HTML report template is source, not a generated report
+!ecs_eks_security_scanner/templates/report.html
 
 # Environment
 .env
