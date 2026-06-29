@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TocConsulting/ecs-eks-security-scanner/main/assets/ecs-eks-security-scanner-logo.png" alt="ECS/EKS Security Scanner" style="max-width: 100%; height: auto;">
+  <img src="https://raw.githubusercontent.com/TocConsulting/ecs-eks-security-scanner/main/assets/ecs-eks-security-scanner-logo.png" alt="ecs-eks-security-scanner" width="320" style="height: auto;">
 </p>
 
 <p align="center">
