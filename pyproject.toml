@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ecs-eks-security-scanner"
-version = "1.0.0"
+version = "1.1.0"
 description = "A comprehensive AWS ECS/EKS container security scanner with multi-framework compliance mapping"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = "MIT"
 authors = [
     {name = "Toc Consulting", email = "tarek@tocconsulting.fr"}
@@ -20,7 +20,6 @@ classifiers = [
     "Topic :: Security",
     "Topic :: System :: Systems Administration",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -64,7 +63,7 @@ include = ["ecs_eks_security_scanner*"]
 
 [tool.black]
 line-length = 79
-target-version = ['py310', 'py311', 'py312', 'py313']
+target-version = ['py311', 'py312', 'py313']
 include = '\.pyi?$'
 
 [tool.flake8]
@@ -73,7 +72,7 @@ extend-ignore = ["E203", "W503"]
 exclude = [".git", "__pycache__", "build", "dist", "ecs_eks_security_scanner.egg-info"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = false

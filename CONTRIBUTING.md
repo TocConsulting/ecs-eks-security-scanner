@@ -6,7 +6,7 @@ Thank you for your interest in contributing to the ECS/EKS Security Scanner! We 
 
 ### Prerequisites
 
-- Python 3.9 or higher
+- Python 3.11 or higher
 - Git
 - AWS CLI configured with appropriate credentials
 - Good understanding of AWS ECS, EKS, and container security concepts
